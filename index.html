@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="Phạm Đức Hậu - Senior Frontend Developer (React/Next.js, TypeScript) with 3+ years of experience building enterprise ERP and healthcare web applications.">
+   <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+   <link rel="stylesheet" href="assets/css/styles.css">
+   <title>Phạm Đức Hậu - Senior Frontend Developer | Portfolio</title>
+</head>
+<body>
+   <div class="cursor" aria-hidden="true"></div>
+
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#home" class="nav__logo" data-cv="shortName">Hậu</a>
+         <button class="nav__toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="nav-list"><i class="ri-menu-line"></i></button>
+         <ul class="nav__list" id="nav-list">
+            <li><a href="#about" class="nav__link">About</a></li>
+            <li><a href="#projects" class="nav__link">Projects</a></li>
+            <li><a href="#work" class="nav__link">Experience</a></li>
+            <li><a href="#contact" class="nav__link">Contact</a></li>
+         </ul>
+      </nav>
+   </header>
+
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__blob"></div>
+         <div class="home__container container grid">
+            <div class="home__data">
+               <h3 class="home__greeting">Hello, I'm</h3>
+               <h1 class="home__name" data-cv="fullName">Phạm Đức <br> Hậu</h1>
+            </div>
+            <div class="home__image">
+               <div class="home__glow"></div>
+               <img src="assets/img/avatar.svg" alt="Phạm Đức Hậu" data-cv="avatar">
+            </div>
+            <div class="home__profession">
+               <h3 class="home__split">React / Next.js</h3>
+               <h1 class="home__title" data-cv="title">Senior Frontend <br><span>Developer</span></h1>
+            </div>
+            <div class="home__social" data-cv="contact.social">
+               <a href="https://github.com/PhamDucHau" target="_blank" rel="noopener" aria-label="GitHub"><i class="ri-github-line"></i></a>
+            </div>
+            <a href="#contact" class="home__cv" data-cv="cvLink">CONTACT <i class="ri-mail-line"></i></a>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <h2 class="section__title"><span>About</span> <br> me</h2>
+            <div class="about__image"><img src="assets/img/avatar.svg" alt="Phạm Đức Hậu"></div>
+            <div class="about__data">
+               <p class="about__description" data-cv="summary">Frontend developer with <b>3+ years of experience</b> building web applications with React/Next.js, TypeScript and Angular, from component architecture and state management to testing and performance optimization. Delivered an enterprise ERP (AI/OCR-integrated) and multi-portal healthcare products with <b>RBAC, MFA and real-time features</b>. Led a 5-member cross-functional team and reported progress directly to the Board of Directors.</p>
+               <a href="#contact" class="button">Contact <i class="ri-mail-line"></i></a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title">Projects <br><span>I've built</span></h2>
+         <div class="projects__container container" data-cv="projects">
+            <article class="projects__card" data-cv-item>
+               <div class="projects__image"><img src="assets/img/projects-1.png" alt="Giao diện Healthcare Management System" data-cv="projects[].image"></div>
+               <div class="projects__data">
+                  <h1 class="projects__number">01</h1>
+                  <h3 class="projects__subtitle" data-cv="projects[].type">Web App · 04/2025 – Present</h3>
+                  <h2 class="projects__title" data-cv="projects[].name">Healthcare <br> Management System</h2>
+                  <h4 class="projects__tech">Tech stack</h4>
+                  <p class="projects__description" data-cv="projects[].description">Multi-portal healthcare platform (Patient, Provider, Admin) with MFA, RBAC, EMR, real-time scheduling, OCR onboarding and encrypted PII/PHI handling. Built with React, TypeScript, Vite, TanStack Query, shadcn/ui, Tailwind CSS, Zod, Supabase, Vitest and Playwright.</p>
+               </div>
+            </article>
+            <article class="projects__card" data-cv-item>
+               <div class="projects__image"><img src="assets/img/projects-2.png" alt="Giao diện nền tảng E-Learning" data-cv="projects[].image"></div>
+               <div class="projects__data">
+                  <h1 class="projects__number">02</h1>
+                  <h3 class="projects__subtitle" data-cv="projects[].type">Web App · 04/2025 – Present</h3>
+                  <h2 class="projects__title" data-cv="projects[].name">E-Learning <br> Platform</h2>
+                  <h4 class="projects__tech">Tech stack</h4>
+                  <p class="projects__description" data-cv="projects[].description">Online learning platform with course management, secure video streaming, enrollment and payment verification, affiliate system and learning analytics dashboard. Built with React, TypeScript, NestJS, MongoDB, Socket.io, Firebase Auth, AWS S3 and Jest.</p>
+               </div>
+            </article>
+         </div>
+         <div class="projects__nav container">
+            <button class="projects__btn" data-dir="-1" aria-label="Previous"><i class="ri-arrow-left-line"></i></button>
+            <button class="projects__btn" data-dir="1" aria-label="Next"><i class="ri-arrow-right-line"></i></button>
+         </div>
+      </section>
+
+      <!--==================== WORK ====================-->
+      <section class="work section" id="work">
+         <h2 class="section__title"><span>Work</span> <br> experience</h2>
+         <div class="work__container container">
+            <div class="work__tabs">
+               <button class="work__button work__active" data-target="#experience">Experience</button>
+               <button class="work__button" data-target="#education">Education</button>
+            </div>
+            <div class="work__content work__active" id="experience" data-cv="experience">
+               <div class="work__card" data-cv-item>
+                  <h2 class="work__title" data-cv="experience[].position">Frontend-focused <br> Fullstack Developer</h2>
+                  <h3 class="work__subtitle" data-cv="experience[].company">AI+DI Company</h3>
+                  <span class="work__year" data-cv="experience[].period">04/2025 – Present</span>
+                  <p class="work__description" data-cv="experience[].description">Built the React frontend of an AI-powered ERP system for Nhà Bè Garment Corporation (NBC), including OCR document processing UI, a template editor and AI-assisted document automation, in an Agile/Scrum team. Developed reusable React components, optimized application performance, and integrated Azure services, PostgreSQL-backed APIs and third-party APIs into ERP modules. Customized and maintained an internal Odoo 18/19 ERP covering HR, procurement, inventory, sales and document management. Tech: React, TypeScript, NestJS, PostgreSQL, Azure, Odoo (Python), Docker, REST API.</p>
+               </div>
+               <div class="work__card" data-cv-item>
+                  <h2 class="work__title" data-cv="experience[].position">Frontend-focused <br> Fullstack Developer (Freelance)</h2>
+                  <h3 class="work__subtitle" data-cv="experience[].company">Royal Solution</h3>
+                  <span class="work__year" data-cv="experience[].period">04/2025 – Present</span>
+                  <p class="work__description" data-cv="experience[].description">Built a multi-portal Healthcare Management System in React/TypeScript with OTP login, MFA, RBAC, encrypted PII/PHI handling, an audit log, EMR with SOAP-note workflow, real-time appointment scheduling, and OCR onboarding for Vietnamese ID and health insurance cards. Added AI-assisted features (speech-to-text, AI accuracy dashboard) and wrote unit (Vitest) and E2E (Playwright) tests. Also developed an E-Learning Platform with video streaming, payment verification, affiliate system, analytics dashboard and Socket.io notifications. Tech: React, TypeScript, Supabase, NestJS, MongoDB, Firebase Auth, Redis, AWS S3, Cloudflare R2, Jest, Docker.</p>
+               </div>
+               <div class="work__card" data-cv-item>
+                  <h2 class="work__title" data-cv="experience[].position">Team <br> Leader</h2>
+                  <h3 class="work__subtitle" data-cv="experience[].company">CAS Corporation</h3>
+                  <span class="work__year" data-cv="experience[].period">06/2024 – 04/2025</span>
+                  <p class="work__description" data-cv="experience[].description">Led a 5-member team (2 Frontend, 1 Backend, 1 Data Analyst, 1 IT Helpdesk), delegating tasks by strengths and supporting on complex issues. Built and shipped Angular frontend features for internal systems, including the internal CRM, alongside a NestJS/PostgreSQL backend. Reported progress to the Board of Directors, developed ML-based OCR and speech-to-text tools, deployed open-source platforms (Superset, Mattermost, MinIO) and managed VPS deployment. Tech: Angular, NestJS, PostgreSQL, Docker, Git, Postman.</p>
+               </div>
+            </div>
+            <div class="work__content" id="education" data-cv="education">
+               <div class="work__card" data-cv-item>
+                  <h2 class="work__title" data-cv="education[].degree">Information Technology <br> (Software Technology)</h2>
+                  <h3 class="work__subtitle" data-cv="education[].school">Nguyễn Tất Thành University</h3>
+                  <span class="work__year" data-cv="education[].period">08/2019 – 11/2023</span>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES / SKILLS ====================-->
+      <section class="services section" id="services">
+         <h2 class="section__title">My <span>skills</span></h2>
+         <div class="services__container container grid" data-cv="skills">
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">Core Frontend</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Building modern web interfaces with React, Next.js and TypeScript.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">React - Next.js - TypeScript - JavaScript (ES6+)<br>HTML5 - CSS3 (SASS/SCSS) - Angular - Vue/Nuxt - Vite</p>
+               </div>
+            </article>
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">UI &amp; Styling</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Component libraries and styling systems for consistent interfaces.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">Tailwind CSS - shadcn/ui - Radix UI - Material UI<br>Ant Design - Vuetify - Bootstrap</p>
+               </div>
+            </article>
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">State &amp; Data</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Data fetching, validation and real-time communication.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">TanStack Query - Zod - REST API<br>WebSocket (real-time) - Supabase</p>
+               </div>
+            </article>
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">Testing</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Unit and end-to-end testing for critical flows.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">Vitest - Jest - Playwright</p>
+               </div>
+            </article>
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">Tools</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Version control, API testing and containerization.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">Git - GitHub - GitLab - Postman - Docker</p>
+               </div>
+            </article>
+            <article class="services__card" data-cv-item>
+               <header class="services__header">
+                  <h2 class="services__title" data-cv="skills[].group">Backend &amp; Other</h2>
+                  <i class="ri-arrow-down-s-line services__icon"></i>
+               </header>
+               <div class="services__info">
+                  <p class="services__description" data-cv="skills[].description">Backend services and ERP customization.</p>
+                  <h3 class="services__subtitle">Skills &amp; tools</h3>
+                  <p class="services__skills" data-cv="skills[].items">Node.js (NestJS) - PostgreSQL - MongoDB - Odoo (Python)</p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== CONTACT ====================-->
+      <section class="contact section" id="contact">
+         <h2 class="section__title">Contact</h2>
+         <div class="contact__container container grid">
+            <div class="contact__data">
+               <p class="contact__description">Tell me about your next project.</p>
+               <button class="contact__button" id="copy-email"><span data-cv="contact.email">haudev99.fe@gmail.com</span> <i class="ri-file-copy-line"></i></button>
+               <small class="contact__copied" id="copy-msg">Copied!</small>
+            </div>
+            <div class="contact__info grid">
+               <div>
+                  <h3 class="contact__title">Email</h3>
+                  <a href="mailto:haudev99.fe@gmail.com" class="contact__address" data-cv="contact.email">haudev99.fe@gmail.com</a>
+               </div>
+               <div>
+                  <h3 class="contact__title">Phone</h3>
+                  <a href="tel:+84981979501" class="contact__address" data-cv="contact.phone">0981979501</a>
+               </div>
+               <div>
+                  <h3 class="contact__title">Location</h3>
+                  <span class="contact__address" data-cv="contact.location">Ho Chi Minh City</span>
+               </div>
+               <div>
+                  <h3 class="contact__title">Social</h3>
+                  <div class="contact__links" data-cv="contact.links">
+                     <a href="https://github.com/PhamDucHau" target="_blank" rel="noopener" class="contact__link">GitHub</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+   </main>
+
+   <footer class="footer">
+      <p class="footer__copy">All rights reserved by <span data-cv="fullName">Phạm Đức Hậu</span></p>
+      <p class="footer__year">&copy; <span id="year">2026</span></p>
+   </footer>
+
+   <script src="assets/js/main.js"></script>
+</body>
+</html>
